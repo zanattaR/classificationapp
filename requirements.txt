@@ -5,4 +5,4 @@ Pillow==6.2.1
 xlsxwriter==1.2.1
 nltk
 sklearn
-xlrd
+xlrd==1.2.0
