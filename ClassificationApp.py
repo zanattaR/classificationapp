@@ -24,7 +24,7 @@ st.markdown('## Modelo de Classificações Inglês e Espanhol')
 st.write("")
 #st.title('Inglês e Espanhol')
 st.write('''Esta aplicação tem como objetivo de classificar em Categorização e Sentimentação, reviews em inglês e espanhol.
-	Este MVP será usado para teste de viabilidade dos modelos preditivos.''')
+	Este MVP será usado para teste de viabilidade dos modelos preditivos. ''')
 
 # Funções
 
