@@ -89,7 +89,7 @@ def get_table_download_link(df):
 	return f'<a href="data:application/octet-stream;base64,{b64.decode()}" download="extract.xlsx">Download</a>'
 
 ####### Upload dataset #######
-#st.subheader('Dados')
+st.subheader('Dados')
 data = st.file_uploader("Insira a base de dados", type='xlsx')
 if data is not None:
 	df = pd.read_excel(data, usecols=['DATE','TEXT'])
